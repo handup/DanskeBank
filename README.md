@@ -7,7 +7,9 @@ There were a number of assumptions made in this project:
 > The service should accept a credit amount, the term (repayment in months), current preexisting credit amount
 
 I intrepreted as a total credit amount spent over a term in months to repay a certain debt
+
 3) Every month a monthly amount is repayed, afterwards interest is applied
+
 4) When it says
 > a decision and interest rate percentage.
 

@@ -1,5 +1,3 @@
-# DanskeBank
-
 There were a number of assumptions made in this project:
 
 1) This service simulates repaying a debt. 

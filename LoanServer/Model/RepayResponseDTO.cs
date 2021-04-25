@@ -1,4 +1,4 @@
-﻿namespace DanskeBankTest.Model
+﻿namespace LoanServer.Model
 {
     public class RepayResponseDTO
     {

@@ -1,8 +1,8 @@
-﻿using DanskeBankTest.Controllers;
+﻿using LoanServer.Controllers;
 using Microsoft.AspNetCore.Mvc;
 using NUnit.Framework;
 
-namespace DabskeBankUnitTests
+namespace LoanServerTest
 {
     [TestFixture]
     public class LoanControllerTests

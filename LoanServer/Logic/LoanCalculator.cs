@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DanskeBankTest.Logic
+namespace LoanServer.Logic
 {
     public static class LoanCalculator
     {

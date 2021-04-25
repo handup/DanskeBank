@@ -1,8 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DanskeBankTest", "DanskeBankTest\DanskeBankTest.csproj", "{DC2FBA74-C509-4FF5-9CC5-8058C128C147}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoanServer", "LoanServer\LoanServer.csproj", "{DC2FBA74-C509-4FF5-9CC5-8058C128C147}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DabskeBankUnitTests", "DabskeBankUnitTests\DabskeBankUnitTests.csproj", "{8FBF2CCB-634C-4EF8-9C77-BAEB098820DA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoanServerTest", "LoanServerTest\LoanServerTest.csproj", "{8FBF2CCB-634C-4EF8-9C77-BAEB098820DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

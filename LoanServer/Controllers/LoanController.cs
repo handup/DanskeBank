@@ -1,9 +1,9 @@
-﻿using DanskeBankTest.Model;
-using DanskeBankTest.Logic;
+﻿using LoanServer.Model;
+using LoanServer.Logic;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace DanskeBankTest.Controllers
+namespace LoanServer.Controllers
 {
     [ApiController]
     [Route("[controller]")]

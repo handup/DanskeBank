@@ -1,8 +1,8 @@
 ﻿using System;
-using DanskeBankTest.Logic;
+using LoanServer.Logic;
 using NUnit.Framework;
 
-namespace DabskeBankUnitTests
+namespace LoanServerTest
 {
     [TestFixture]
     public class LoanCalculatorTests

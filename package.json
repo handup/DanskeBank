@@ -1,5 +1,11 @@
 {
   "dependencies": {
-    "moment": "^2.29.1"
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "@types/material-ui": "^0.21.8",
+    "axios": "^0.21.1",
+    "moment": "^2.29.1",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.0.3"
   }
 }

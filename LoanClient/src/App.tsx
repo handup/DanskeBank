@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import InterestCalculator from './Loans/components/InterestCalculator';
+import InterestCalculator from './Loans/components/RepaymentCalculator';
 
 function App() {
   return (
     <div className="App">
-      <InterestCalculator active={true} />
+      <InterestCalculator />
     </div>
   );
 }

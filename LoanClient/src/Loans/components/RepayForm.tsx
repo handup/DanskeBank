@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import { Form, Message } from 'semantic-ui-react';
 import { getLoanApi } from '../../_shared/apihelper';
 
@@ -30,23 +30,6 @@ const RepayForm = ({ onSubmit } : Props ) => {
       })
   }
 
-  const getMessage = (success: string) => {
-    switch (success) {
-      case 'sucess':
-          return <Message
-            success
-            header='Form Successful'
-          />;
-      case 'failure':
-        return <Message
-            negative
-            header='Form Failed'
-          />;
-      default:
-        return "";
-    }
-  }
-
   return (
   <div>
     <Form>
@@ -76,7 +59,6 @@ const RepayForm = ({ onSubmit } : Props ) => {
         content="Submit"
         onClick={submitRepay}
       />
-      {getMessage(sucess)}
       
     </Form>
   </div> 
